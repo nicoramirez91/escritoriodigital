@@ -49,9 +49,9 @@ body.privada {
                 justify-content: space-between;
                 padding-top: 30px;
                 .navbar {
-                    display: none;
+                    display: none!important;
                     @include mobile {
-                        display: block;
+                        display: block!important;
 
                     }
                 }
