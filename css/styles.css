@@ -745,7 +745,7 @@ body.publica .productividad::before {
   background-size: contain;
   background-repeat: no-repeat;
   width: 900px;
-  height: 700px;
+  height: 600px;
   left: 0;
   top: 0;
   z-index: 1;
@@ -867,9 +867,12 @@ body.publica .contacto__container {
   position: relative;
   z-index: 9999999999;
 }
-body.publica .contacto__container .title {
+body.publica .contacto__container .title h3 {
   font-size: 40px;
   font-weight: bold;
+}
+body.publica .contacto__container .title p {
+  font-size: 25px;
 }
 body.publica .contacto__container--content {
   display: grid;
